@@ -18,6 +18,30 @@
 		vertical-align: baseline;
 	}
 
+.videowrapper { 
+        float: none;
+        clear: both;
+        width: 700px;
+        position: relative;
+        padding-bottom: 40%;
+        padding-top: 25px;
+        height: 0;
+        margin: 0 auto;
+        max-width: 100%;
+        margin-bottom: 10px
+}
+
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 700px;
+    max-height: 400px;
+}
+
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
